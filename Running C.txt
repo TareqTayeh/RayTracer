@@ -1,0 +1,2 @@
+gcc -o test raytracer-framework.c -I/opt/X11/include -L/opt/X11/lib -lX11 -lm -std=c11
+./test
